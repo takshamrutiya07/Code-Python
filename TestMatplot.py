@@ -1,0 +1,36 @@
+import matplotlib.pyplot as plt
+import numpy as np
+t=np.linspace(0,10,100)
+s1=np.sin(2*np.pi*40*t)
+s2=0.5*np.sin(2*np.pi*20*t)
+plt.plot(t,s1)
+plt.plot(t,s2)
+plt.title('Sine Signal')
+plt.xlabel('Time')
+plt.ylabel('Amplitude')
+plt.ylim([-2,2])
+# plt.grid(True)
+plt.show()
+# s1=np.exp(0.4*t)
+# plt.subplot(2,2,1)
+# plt.plot(t,s1)
+
+# s2=np.exp(-0.4*t)
+# # plt.subplot(2,2,2)
+# # plt.plot(t,s2)
+
+# s3=-1*np.exp(0.4*t)
+# # plt.subplot(2,2,3)
+# # plt.plot(t,s3)
+
+# s4=-1*np.exp(-0.4*t)
+# # plt.subplot(2,2,4)
+# # plt.plot(t,s4)
+
+# plt.plot(t,s1,t,s2,t,s3,t,s4)
+# plt.show()
+# m=max(s1)
+# plt.bar(t,m)
+# plt.show()
+# p=np.sin(90*np.pi/180)
+# print(p)
